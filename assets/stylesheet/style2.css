@@ -1,0 +1,138 @@
+header{
+  /* display: flex;  */
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 80;
+  height: 48px;
+  align-items: center;
+  line-height: 1rem;
+  background-color: white;
+  justify-content: center;
+}
+
+
+.wrapper{
+  padding: 0 20px;
+  display: flex;
+  line-height: 1rem;
+  /* text-align: center; */
+  border-bottom: 1px solid white;
+  box-sizing: border-box;
+  /* flex-grow: 1; */
+  align-items: center;
+  justify-content: center;
+}
+
+
+.navpart-1{
+  /* display: flex;   */
+  align-items: center;
+  justify-content: center;
+  /* flex-grow: 1; */
+  display: inline-block;
+}
+
+/* .shortcuts{
+  position: absolute!important;
+  clip: rect(1px,1px,1px,1px);
+} */
+
+
+.img-logo {
+  display: inline-block;
+  padding-top: 5px;
+  width: 6%;
+}
+
+.js-button {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+  /* position: relative; */
+  height: 36px;
+  width: 100px;
+  display: inline-block;
+  margin-bottom: 20px;;
+}
+
+.js{
+  border: none;
+  border-radius: 4px;
+  /* bottom: 0; */
+  box-sizing: border-box;
+  height: 100%;
+  /* left: 0; */
+  padding-left: 40px;
+  padding-right: 56px;
+  /* position: absolute; */
+  text-align: left;
+  overflow: hidden;
+  /* text-overflow: ellipsis; */
+  top:0;
+  white-space: nowrap;
+  /* width: 100%; */
+  background: white;
+  outline: none;
+  box-shadow: none;
+  margin-left: 20px;
+}
+
+.js-text{
+  font-weight: 500;
+  line-height: 18px;
+  font-size: 14px;
+}
+
+h1{
+  display: inline-block;
+}
+
+.js-logo {
+  height: 22px;
+  /* left: 10px; */
+  margin-left: 0;
+  /* position: absolute; */
+  width: 22px;
+  /* top: 50%; */
+  border-radius: 100%;
+}
+
+.logo{
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+.js-para{
+  padding-left: 5px;
+  /* position: absolute; */
+}
+
+.search{
+  /* flex-grow: 1; */
+  margin-left: 16px;
+  /* margin-right: 16px; */
+  /* width: 100%; */
+  /* position: relative; */
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 36px;
+  display: inline-block;
+}
+
+.input-para{
+  color: black;
+  /* position: absolute; */
+  display: inline-block;
+}
+
+
+.navpart-2{
+  /* display: inline-flex; */
+  align-items: center;
+}
+
+/* .fas{
+  padding-left: 40px;
+} */
